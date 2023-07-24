@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // import Greeting from "../components/Greeting.jsx";
-import Cv from "../components/Cv.jsx";
+import Cv from "./components/Cv.jsx";
 
 // import "./index.css";
 import "./styles/cv.css";
