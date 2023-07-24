@@ -408,7 +408,7 @@ function Cv() {
 					</div>
 				</div>
 			</div>
-			<footer>testing</footer>
+			<footer>Cornelia 2023</footer>
 		</>
 	);
 }
