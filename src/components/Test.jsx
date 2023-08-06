@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { OverlayTrigger, Tooltip, Spinner } from "react-bootstrap";
 
-function Cv() {
+function Test() {
 	const [name, setName] = useState("");
 	const [aboutMe, setAboutMe] = useState("");
 	const [phone, setPhone] = useState("");
@@ -24,7 +24,7 @@ function Cv() {
 	const [submittedWork, setSubmittedWork] = useState([]);
 
 	const handleWorkInputChange = (e) => {
-		const { name, value } = e.target; 
+		const { name, value } = e.target;
 		setworkData({ ...workData, [name]: value });
 	};
 	const handleJobSubmit = (e) => {
@@ -433,4 +433,4 @@ function Cv() {
 	);
 }
 
-export default Cv;
+export default Test;

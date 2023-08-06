@@ -119,3 +119,9 @@ footer {
 	color: black; /* Set the color to red (or any other color you want) */
 	font-size: inherit; /* Inherit the font size from the parent */
 }
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container take the full height of the viewport */
+  }
